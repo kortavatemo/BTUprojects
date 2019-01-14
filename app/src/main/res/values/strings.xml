@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Storageapp</string>
+    <string name="save">Save</string>
+    <string name="view_data">View Data</string>
+</resources>

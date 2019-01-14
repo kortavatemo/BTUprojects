@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textView2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="DuplicateIds"
+    tools:layout_editor_absoluteY="25dp">
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="write"
+        android:text="@string/save"
+        android:textColor="@color/colorPrimary"
+        android:textColorLink="@color/colorAccent"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="219dp"
+        tools:text="Save" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="read"
+        android:text="@string/view_data"
+        android:textColor="#FFF6240D"
+        android:textColorHint="@id/button2"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="219dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="342dp"
+        android:layout_height="170dp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="317dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="324dp"
+        android:layout_height="170dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:autofillHints="" tools:targetApi="o"/>
+
+</android.support.constraint.ConstraintLayout>
